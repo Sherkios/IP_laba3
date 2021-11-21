@@ -9,7 +9,7 @@
 <body>
 	<a href="f1.html">первое задание</a> <br>
 	<a href="f2.html">второе задание</a> <br>
-	<a href="laba2-3.php">Третье задание</a> <br>
+	<a href="f3.html">Третье задание</a> <br>
 	<a href="laba2-4.php">1 самостоятельная</a> <br>
 	<a href="laba2-5.php">Четвертое задание</a> <br>
 	<a href="laba2-6.php">2 самостоятельная</a> <br>
