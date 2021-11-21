@@ -14,5 +14,7 @@
 	<a href="f5.html">5 задание</a> <br>
 	<a href="f6.html">6 задание</a> <br>
 	<a href="f7.php">7 задание</a> <br>
+	<a href="s3-1.php">1 Самостоятельная</a> <br>
+	<a href="s3-2.php">2 Самостоятельная</a> <br>
 </body>
 </html>
