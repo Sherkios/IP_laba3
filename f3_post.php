@@ -1,10 +1,15 @@
 <?
 	if ($_POST["d"]=="plus") {
 		$c=$_POST["a"]+$_POST["b"];
-		echo ("сумма чисел = $c");
+		if ($_POST["f"].checked==checked) {
+			echo ($_POST['a']."+".$_POST['b']."=".$c);
+		} else { echo ("Результат = ".$c); }
 	} else {
 		$c=$_POST["a"]*$_POST["b"];
-		echo ("произведение чисел = $c");
-	}
-		echo ("<BR> <A href='f3.html'> Вернуться назад </A>");
+		if (isset($_POST["f"])) {
+			echo ("Результат = ".$c);
+		} else {
+			echo ($_POST['a']."*".$_POST['b']." = ".$c); }
+			echo ("<BR> <A href='f3.html'> Вернуться назад </A>");
+		}
 ?>
