@@ -13,5 +13,6 @@
 	<a href="f3.html">4 Задание</a> <br>
 	<a href="f5.html">5 задание</a> <br>
 	<a href="f6.html">6 задание</a> <br>
+	<a href="f7.php">7 задание</a> <br>
 </body>
 </html>
