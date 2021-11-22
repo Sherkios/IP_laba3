@@ -1,21 +1,6 @@
 <?php 
 if (isset($_POST["obr"])) {
-	$mass = str_split($_POST["prhase"]);
-	$out = array();
-	echo "Вывод предложения без повтора букв <br>";
-	for ($i=0; $i < count($mass) ; $i++) { 
-		$out[] = $mass[$i];
-		$count = 0;
-		for ($k=0; $k < count($out) ; $k++) { 
-			
-			if ($mass[$i] == $out[$k]) {
-				$count++;
-			}
-		}
-		if ($count == 1) {
-				echo "$mass[$i]";
-		}
-	}
+	echo join(array_unique(preg_split("//u", $_POST["prhase"])));
 }
 	
 
